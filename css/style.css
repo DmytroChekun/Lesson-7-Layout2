@@ -23,6 +23,7 @@ ul{
     text-align: center;
     margin: 0 auto;
     font-size: 18px;
+    min-width: 500px;
 }
 li{
     display: inline-block;
