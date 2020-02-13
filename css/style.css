@@ -1,5 +1,4 @@
-
-   body{
+body{
         width: 100%;
         height: 100%;
         border: 18px #2b81ac solid;
@@ -8,19 +7,16 @@
         background-color: #3399cc;
         color: #fff;
         font-family: 'Hind Guntur', sans-serif;
-    }
-
+}
 img{
     width: 50px;
     vertical-align: middle;
 }
-
 header{
     width: 53.5vw;
     margin: 0 auto;
     padding: 20px 0;
 }
-
 ul{
     width: 55.5vw;
     height: 69.2vh;
@@ -28,60 +24,32 @@ ul{
     margin: 0 auto;
     font-size: 18px;
 }
-
 li{
     display: inline-block;
     border: 4px #fff solid;
     box-sizing:border-box;
     padding-top: 4vh;
 }
-
     .Lisbon, .San-Francisco{
         width: 49.8%;
         height: 25%;
     }
-
     .Paris, .Belgrade, .Moscow, .Tel-Aviv, .Cair, .New-York, .New-Delhi, .Tokyo{
         width: 24.9%;
         height: 25%;
     }
+    .Lisbon{background:#3399cc;}
+    .Paris{background:#33cccc;}
+    .Belgrade{background:#996699;}
+    .Moscow{background:#c24747;}
+    .Tel-Aviv{background:#e2674a;}
+    .Cair{background:#ffcc66;}
+    .New-York{background:#99cc99;}
+    .New-Delhi{background:#669999;}
+    .San-Francisco{background:#cc6699;}
+    .Tokyo{background:#339966;}
 
-    .Lisbon{
-        background:#3399cc;
-    }
-    .Paris{
-        background:#33cccc;
-    }
-    .Belgrade{
-        background:#996699;
-    }
-    .Moscow{
-        background:#c24747;
-    }
-    .Tel-Aviv{
-        background:#e2674a;
-    }
-    .Cair{
-        background:#ffcc66;
-    }
-    .New-York{
-        background:#99cc99;
-    }
-    .New-Delhi{
-        background:#669999;
-    }
-    .San-Francisco{
-        background:#cc6699;
-    }
-    .Tokyo{
-        background:#339966;
-    }
-    .Sydney{
-        width: 99.7%;
-        height: 25%;
-        background: #666699; 
-    }
-
+    .Sydney{width: 99.7%;height: 25%;background: #666699; }
 footer{
     width: 53.5vw;
     margin: 0 auto;
@@ -93,12 +61,10 @@ footer{
     border-right: none;
     border-bottom: none;
 }
-
 .Belgrade, .New-York, .Tokyo{
     border-bottom: none;
 }
 /* Double border fix finish*/
-
 
 *{transition: all .1s ease-in;}
 
@@ -108,7 +74,6 @@ li p, span, img{
 li:hover, li:hover p, li:hover span, li:hover img{
     opacity: 1;
 }
-
 li:hover{
     -webkit-filter: contrast(1.5);
 }
